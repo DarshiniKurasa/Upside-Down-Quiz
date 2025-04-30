@@ -1,0 +1,57 @@
+name: stranger_things_quiz
+description: A Stranger Things themed quiz adventure app
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  audioplayers: ^5.2.1
+  flutter_animate: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets
+  assets:
+    # Images
+    - assets/images/logo.png
+    - assets/images/hawkins_bg.jpg
+    - assets/images/upside_down_bg.jpg
+    - assets/images/eleven.jpg
+    - assets/images/mike.jpg
+    - assets/images/lucas.jpg
+    - assets/images/dustin.jpg
+    - assets/images/will.jpg
+    - assets/images/max.jpg
+    - assets/images/hopper.jpg
+    - assets/images/steve.jpg
+    - assets/images/eleven_power.png
+    - assets/images/party.png
+    - assets/images/demogorgon.png
+    - assets/images/mind_flayer.png
+    - assets/images/jumpscare_ghost.png
+    
+    # Audio
+    - assets/audio/theme.mp3
+    - assets/audio/click.mp3
+    - assets/audio/dimension_shift.mp3
+    - assets/audio/correct.mp3
+    - assets/audio/wrong.mp3
+
+  # Fonts
+  fonts:
+    - family: BenguiatITCBold
+      fonts:
+        - asset: assets/fonts/BenguiatITCBold.ttf
